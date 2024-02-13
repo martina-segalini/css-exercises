@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS embedding</title>
+  <!-- Font embedded -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="print.css" media="print" rel="stylesheet">
+  <!-- Embedded stylesheet -->
+  <style>
+    /* CSS file */
+    article {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <h1 class="title">The amazing Sicily</h1>
+      <p class="title">Written by miss Cicily</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam inventore distinctio vero blanditiis
+        doloribus praesentium illum quis recusandae? Quae soluta optio minus repudiandae veniam amet laboriosam vel
+        tempore pariatur?</p>
+    </header>
+    <section>
+
+      <h2>The beaches of Sicily</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum cumque dignissimos qui optio vel,
+        corrupti
+        dolor suscipit quae magni repellendus vitae consectetur, est rerum. Eius, sint. Numquam, beatae omnis?</p>
+
+      <h3>Palermo region</h3>
+      <!-- Inline stylesheet -->
+      <article style="color:red">
+        <h4>This Palermo beach</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quidem incidunt facilis repellendus, porro
+          odit
+          quod, ad harum libero accusantium atque inventore omnis itaque quasi eligendi aliquam placeat distinctio ex.
+        </p>
+      </article>
+    </section>
+  </main>
+
+</body>
+
+</html>

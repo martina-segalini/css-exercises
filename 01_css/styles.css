@@ -1,0 +1,44 @@
+/* comment */
+html {
+  font-size: 20px;
+  font-family: Roboto;
+} 
+  article {
+  color: purple;
+  background-color: pink;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.3;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  letter-spacing:-1px;
+}
+
+/* multiple selectors (separated by comma)*/
+h1, h2, h3, h4, h5, h6 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* selectors targeting descendants (separated by space) */
+main p {
+  border: 2px solid blue;
+}
+
+/* selectors targeting direct descendants (separated by arrow) */
+section > p {
+  border: 10px dashed red;
+}
+
+/* selectors targeting the next siblings (separated by plus) */
+p + p {
+  border: 10px dashed green;
+}
+
+/* class name selector (starts with fullstop)*/
+.title {
+  color: orange;
+}
