@@ -1,0 +1,96 @@
+/* universal selector */
+* {
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+}
+
+/* reset the body's margins */
+
+html {
+  /* scroll smoothly when navigating anchors links */
+  scroll-behavior: smooth;
+}
+
+body {
+  margin:0;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* h1 prove
+h1 {
+  min-width: 300px;
+  max-width: 800px;
+
+  border: 10px solid pink;
+  border-right-width: 10px;
+  border-right-style: dashed;
+  border-right-color: red;
+  background-color:yellow;
+}
+*/
+
+h1 {
+  margin: 0;
+  padding: 1em 0;
+  
+  background-color: rgb(175, 251, 251);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 6em;
+  letter-spacing: -3px;
+  font-weight: 500;
+  line-height: .9;
+  text-align: center;
+
+}
+
+h2 {
+  margin: 0;
+  font-size: 4em;
+  letter-spacing: -5px;
+  font-weight: 500;
+  line-height: .9;
+}
+
+.cascade {
+  color: red;
+}
+
+.second-cascade {
+  border: 1px solid green;
+}
+
+article {
+  padding:1em;
+
+  /* viewport unit
+  100vw = viewport width unit
+  100 vh = viewport height unit */
+
+  min-height: 50vh;
+  background-color: rgba(219, 251, 155, 0.999);
+}
+
+article:nth-child(odd) {
+  background-color: hwb(60 52% 0% / 0.502);
+}
+
+/* First element different
+
+  article:nth-child(1) {
+  background-color: purple;
+}
+*/
+
+footer {
+  padding: 1em;
+}
+
+.symbol {
+  color: red;
+  font-size: 2rem;
+}
