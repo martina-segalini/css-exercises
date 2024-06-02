@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.box {
+  font-size:4em;
+  background-color: yellow;
+
+  animation: changeColors;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /*animation-timing-function: steps(3);*/
+}
+
+/*CSS animation*/
+@keyframes changeColors {
+  0%{
+    background-color: pink;
+  }
+  50%{
+    background-color: violet;
+  }
+  100%{
+    background: purple;
+    transform:rotate(2deg);
+  }
+}
